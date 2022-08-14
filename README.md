@@ -6,6 +6,8 @@ Example uses are accessing Roblox, Discord, Trello, and Firebase APIs, including
 
 The way it works is that the game makes a request to a proxy server instead of the server you want to access and the proxy server actually sends the request for you. It returns an HTTP 200 so Roblox does not error and then appends response headers/codes to the response. This is all done in the background with a free, open-source, personal server that you can setup very easily.
 
+Please note that this is not the original repository, the original can be found [here](https://github.com/sentanos/ProxyService). I have simply forked this to bypass the blacklist put on sentanos's repository by Salesforce. No changes to this repository will be made.
+
 **Features**
 
 This makes Roblox Http requests more complete by adding support for the following features:
@@ -21,7 +23,7 @@ This makes Roblox Http requests more complete by adding support for the followin
 - Create a heroku account here: https://signup.heroku.com. Make sure to verify your email and set a password. If you already have a heroku account, log into it.
 - Click this button
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sentanos/ProxyService)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bowoplex/prxs)
 
 - Type in whatever name you want.
 - Click "Deploy app". Don't touch any of the variables unless you know what you're doing.
